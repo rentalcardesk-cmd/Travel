@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "functions": {
+    "src/server.ts": {
+      "runtime": "edge"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/src/server.ts"
+    }
+  ]
+}
