@@ -148,7 +148,7 @@ function Hero() {
             Trusted By Millions Of Travelers
           </div>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground leading-[1.05]">
-            Find The Perfect <span className="text-accent">Rental Car</span> Anywhere In The USA
+            Find The Perfect <span className="text-accent">Rental Car</span> Anywhere 
           </h1>
           <p className="mt-5 text-base sm:text-lg text-muted-foreground max-w-xl leading-relaxed">
             Compare top rental providers, discover unbeatable rates, and book the ideal vehicle for

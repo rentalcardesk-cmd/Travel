@@ -2,8 +2,8 @@ import { Link } from "@tanstack/react-router";
 import { Phone, Car } from "lucide-react";
 import { useEffect, useState } from "react";
 
-export const PHONE = "+1 (279) 210-1334";
-export const PHONE_HREF = "tel:+12792101334";
+export const PHONE = "99988883323";
+export const PHONE_HREF = "tel:99988883323";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -44,6 +44,7 @@ export function Header() {
           <Phone className="h-4 w-4" />
           <span className="hidden sm:inline">Call Now</span>
           <span className="sm:hidden">Call</span>
+          <span>{PHONE}</span>
         </a>
       </div>
     </header>
