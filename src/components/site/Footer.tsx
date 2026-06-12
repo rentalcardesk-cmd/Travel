@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Car } from "lucide-react";
+import { Car, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -15,6 +15,17 @@ export function Footer() {
           <p className="mt-4 text-sm text-white/70 leading-relaxed max-w-xs">
             Helping travelers find convenient rental vehicle options across the United States.
           </p>
+          <div className="mt-5 flex gap-3">
+            {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
+              <span
+                key={i}
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/5 hover:bg-white/10 transition-colors cursor-pointer"
+                aria-hidden
+              >
+                <Icon className="h-4 w-4" />
+              </span>
+            ))}
+          </div>
         </div>
 
         <div>

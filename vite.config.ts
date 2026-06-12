@@ -12,4 +12,10 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  nitro: {
+    // Build and deploy as a Netlify SSR function (Node.js). Nitro emits the
+    // function handler to .netlify/functions-internal/ and static assets to
+    // dist/, which netlify.toml points at as the publish directory.
+    preset: "netlify",
+  },
 });
