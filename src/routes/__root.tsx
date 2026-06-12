@@ -105,7 +105,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "Organization",
           name: "Travel Booking Center",
           url: "/",
-          telephone: "+11111111111",
+          telephone: "+447475469618",
           email: "support@travelbookingcenter.com",
           areaServed: ["US", "CA"],
         }),

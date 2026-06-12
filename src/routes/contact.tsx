@@ -41,7 +41,7 @@ function ContactPage() {
 
             <div className="mt-10 space-y-4">
               <a
-                href="tel:+11111111111"
+                href="tel:+447475469618"
                 className="group flex items-center gap-4 rounded-2xl border border-border bg-secondary/40 hover:bg-secondary px-5 py-4 text-left transition-colors"
               >
                 <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-accent text-accent-foreground shadow-soft">
@@ -51,7 +51,7 @@ function ContactPage() {
                   <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                     Phone
                   </p>
-                  <p className="text-base font-semibold text-foreground">+1 (111) 111-1111</p>
+                  <p className="text-base font-semibold text-foreground">+447475469618</p>
                 </div>
               </a>
               <a
